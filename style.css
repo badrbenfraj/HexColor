@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.changeColor{
+    padding: 4px 8px;
+    background: rgba(0, 0, 0, 0.6);
+    outline: none;
+    font-size: 15px;
+    color: #ffffff;
+    border: 2px solof #ffffff;
+    border-radius: 7px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.changeColor:hover{
+    background: #000;
+}
+
+span.hex{
+    font-size: 28px;
+}
